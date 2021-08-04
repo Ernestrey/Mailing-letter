@@ -494,7 +494,7 @@ body {
         display: none;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 540px) {
     .container {
         max-width: none;
     }
