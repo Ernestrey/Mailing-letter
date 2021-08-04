@@ -438,8 +438,7 @@ body {
         height: auto;
     }
 }
-
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .container {
         max-width: none;
     }
@@ -449,7 +448,7 @@ body {
     }
     .nav .nav_list {
         order: 1;
-        padding: 0px 15px;
+        padding: 0px 30px;
     }
     .nav .nav_list li {
         margin-right: 15px;
@@ -468,27 +467,27 @@ body {
         display: block;
     }
     .header h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .header p {
-        max-width: 240px;
+        max-width: 270px;
         margin: 10px auto 51px;
-        font-size: 16px;
+        font-size: 20px;
     }
     .header .header_button {
-        font-size: 11px;
+        font-size: 13px;
         padding: 20px 70px;
     }
     .block h2 {
-        margin: 0px 5px;
-        font-size: 25px;
+        margin: 0px 60px;
+        font-size: 30px;
     }
     .block-1 {
         margin-top: 88px;
     }
     .block-1 span {
         display: block;
-        font-size: 11px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
     .block-1 .banner-desktop2 {
@@ -499,20 +498,22 @@ body {
         margin: 10px auto 0px;
     }
     .block-1 p {
-        font-size: 16px;
-        margin: 14px 20px 0px 20px;
+        max-width: 270px;
+        font-size: 20px;
+        margin: 14px auto;
     }
     .block-2 {
         margin-top: 66px;
     }
     .block-2 > span {
         display: block;
-        font-size: 11px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
     .block-2 p {
-        font-size: 16px;
-        margin: 10px 20px 30px;
+        max-width: 270px;
+        font-size: 20px;
+        margin: 10px auto 30px;
     }
     .block-2 .cards {
         display: flex;
@@ -565,6 +566,9 @@ body {
     .block_discount .discount_title {
         font-size: 45px;
     }
+    .block_discount .discount_main br{
+        display: block;
+    }
     .block_discount .discount_button_text {
         letter-spacing: 1.4px;
     }
@@ -573,22 +577,18 @@ body {
         text-align: center;
     }
     .footer .footer_block1 {
-        position: relative;
         display: flex;
         flex-direction: column;
     }
     .footer .footer_icons,
     .footer .download_store {
-        margin: 0px auto;
+        margin: 0 auto;
     }
     .footer .border_mobile {
         display: block;
-        position: absolute;
-        top: 100px;
-        left: -37px;
         border-bottom: 1px solid #222222;
-        width: 320px;
-        padding: 5px 0px;
+        width: 100%;
+        margin: 30px auto 10px;
     }
     .footer .footer_block2 {
         display: flex;
@@ -607,7 +607,7 @@ body {
         font-family: 'Helvetica-Bold';
         font-weight: 700;
         color: #adadad;
-        padding: 40px 0px 10px 0px;
+        padding-bottom: 10px;
     }
     .footer .footer_text {
         font-family: 'Helvetica-Bold';
@@ -617,3 +617,45 @@ body {
         display: none;
     }
 }
+@media (max-width: 320px) {
+    .nav .nav_list {
+        padding: 0px 15px;
+    }
+    .header h1 {
+        font-size: 30px;
+    }
+    .header p {
+        font-size: 16px;
+    }
+    .header .header_button {
+        font-size: 11px;
+        padding: 20px 70px;
+    }
+    .block h2 {
+        margin: 0px 5px;
+        font-size: 25px;
+    }
+    .block-1 span {
+        font-size: 11px;
+    }
+    .block-1 p {
+        font-size: 16px;
+    }
+    .block-2 > span {
+        font-size: 11px;
+    }
+    .block-2 p {
+        font-size: 16px;
+    }
+    .block-2 .cards .cards_name {
+        font-size: 10px;
+    }
+    .block-2 .cards .card_brand, 
+    .block-2 .cards .card_name {
+        font-size: 18px;
+    }
+    .block-2 .cards .card_volume {
+        font-size: 16px;
+    }
+    .block-2 .cards .price_box span {
+        font-size: 17px;
