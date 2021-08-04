@@ -162,7 +162,7 @@ body {
     display: block;
 }
 
-.block-2 .cards .cards_name {
+.block-2 .cards .cards_product {
     font-size: 11px;
     line-height: 150%;
     text-transform: uppercase;
@@ -257,12 +257,12 @@ body {
     justify-content: flex-end; 
 }
 
-.block-2 .cards2 .product_link {
-    justify-content: flex-start;
-}
-
 .block-2 .product_link .buy_button {
     padding-right: 10px;
+}
+
+.block-2 .cards2 .product_link {
+    justify-content: flex-start;
 }
 
 .block_discount {
@@ -583,7 +583,7 @@ body {
         text-align: center;
         margin-top: 10px;
     }
-    .block-2 .cards .cards_name {
+    .block-2 .cards .cards_product {
         font-size: 10px;
     }
     .block-2 .cards .card_brand, 
@@ -656,7 +656,7 @@ body {
     .block-2 p {
         font-size: 16px;
     }
-    .block-2 .cards .cards_name {
+    .block-2 .cards .cards_product {
         font-size: 10px;
     }
     .block-2 .cards .card_brand, 
