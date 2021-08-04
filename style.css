@@ -433,6 +433,10 @@ body {
     .block-2 .cards {
         max-width: 468px;
     }
+    .block-2 .cards img {
+        max-width: 220px;
+        height: auto;
+    }
 }
 @media (max-width: 320px) {
     .container {
