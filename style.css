@@ -441,6 +441,9 @@ body {
         max-width: 220px;
         height: auto;
     }
+    .block_discount .discount_container {
+        padding: 30px 80px 20px 80px;
+    }
 }
 @media (max-width: 425px) {
     .container {
@@ -669,6 +672,7 @@ body {
     .block-2 .cards .price_box span {
         font-size: 17px;
     }
-    .block_discount .discount_main br{
+    .block_discount .discount_main br {
         display: none;
     }
+}
