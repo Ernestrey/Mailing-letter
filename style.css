@@ -659,3 +659,7 @@ body {
     }
     .block-2 .cards .price_box span {
         font-size: 17px;
+    }
+    .block_discount .discount_main br{
+        display: none;
+    }
